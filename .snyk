@@ -8,7 +8,7 @@ custom_rules:
     cwe:
       - 'CWE-123'
     fix_analysis: ''
-    rule_code: '"'
+    rule_code: 'PRED:Any'
     languages:
       - 'apex'
       - 'c'
