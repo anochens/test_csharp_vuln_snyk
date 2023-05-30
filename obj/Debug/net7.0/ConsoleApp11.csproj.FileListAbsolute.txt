@@ -1,0 +1,15 @@
+/Users/anochenson/RiderProjects/ConsoleApp11/ConsoleApp11/bin/Debug/net7.0/ConsoleApp11
+/Users/anochenson/RiderProjects/ConsoleApp11/ConsoleApp11/bin/Debug/net7.0/ConsoleApp11.deps.json
+/Users/anochenson/RiderProjects/ConsoleApp11/ConsoleApp11/bin/Debug/net7.0/ConsoleApp11.runtimeconfig.json
+/Users/anochenson/RiderProjects/ConsoleApp11/ConsoleApp11/bin/Debug/net7.0/ConsoleApp11.dll
+/Users/anochenson/RiderProjects/ConsoleApp11/ConsoleApp11/bin/Debug/net7.0/ConsoleApp11.pdb
+/Users/anochenson/RiderProjects/ConsoleApp11/ConsoleApp11/obj/Debug/net7.0/ConsoleApp11.csproj.AssemblyReference.cache
+/Users/anochenson/RiderProjects/ConsoleApp11/ConsoleApp11/obj/Debug/net7.0/ConsoleApp11.GeneratedMSBuildEditorConfig.editorconfig
+/Users/anochenson/RiderProjects/ConsoleApp11/ConsoleApp11/obj/Debug/net7.0/ConsoleApp11.AssemblyInfoInputs.cache
+/Users/anochenson/RiderProjects/ConsoleApp11/ConsoleApp11/obj/Debug/net7.0/ConsoleApp11.AssemblyInfo.cs
+/Users/anochenson/RiderProjects/ConsoleApp11/ConsoleApp11/obj/Debug/net7.0/ConsoleApp11.csproj.CoreCompileInputs.cache
+/Users/anochenson/RiderProjects/ConsoleApp11/ConsoleApp11/obj/Debug/net7.0/ConsoleApp11.dll
+/Users/anochenson/RiderProjects/ConsoleApp11/ConsoleApp11/obj/Debug/net7.0/refint/ConsoleApp11.dll
+/Users/anochenson/RiderProjects/ConsoleApp11/ConsoleApp11/obj/Debug/net7.0/ConsoleApp11.pdb
+/Users/anochenson/RiderProjects/ConsoleApp11/ConsoleApp11/obj/Debug/net7.0/ConsoleApp11.genruntimeconfig.cache
+/Users/anochenson/RiderProjects/ConsoleApp11/ConsoleApp11/obj/Debug/net7.0/ref/ConsoleApp11.dll
