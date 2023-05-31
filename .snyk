@@ -3,7 +3,7 @@ version: v1.22.1
 ignore: {}
 custom_rules:
   - id: 'test2'
-    description: "### HEllo\n ## Nahh<!-- XSS with regular tags --><script>alert(1)</script><img src=x onerror=alert(1) /><!-- Other links attacks with some bypasses -->\n[Basic](javascript:alert('Basic'))\n[Local Storage](javascript:alert(JSON.stringify(localStorage)))\n[CaseInsensitive](JaVaScRiPt:alert('CaseInsensitive'))\n[URL](javascript://www.google.com%0Aalert('URL'))\n[In Quotes]('javascript:alert(\"InQuotes\")')\n[a](j a v a s c r i p t:prompt(document.cookie))\n[a](data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K)\n[a](javascript:window.onerror=alert;throw%201)"
+    description: "### What this does\n\n_Explain why this PR exists_\n\n### Notes for the reviewer\n\n_Instructions on how to run this locally, background context, what to review, best to review commit-by-commit?, questions…_\n\n### Missed anything?\n\n- [ ] Performance (customer with 200k users, customer with 1k orgs etc). Review the [Performance documentation](https://www.notion.so/snyk/Performance-Scale-761d05cf918446c6be9292686c4f3f29)\n- [ ] [Tests written](https://www.notion.so/snyk/Testing-at-Snyk-1f1b6c533ba545dcbfc32a0f93808d15)\n- [ ] Security aspects considered? Unhappy paths?\n- [ ] Have you accounted for accessibility?\n- [ ] Commit messages and bodies explain what and why, and [follow our format](https://www.notion.so/snyk/Release-Publish-and-Deploy-Process-7a731eb98f0745d0b808ace62f666afb)\n\n### More information\n\n- [Slack thread](https://snyk.slack.com/archives/)\n- [Jira ticket](https://snyksec.atlassian.net/browse/TEAM-0000)\n\n### Screenshots / GIFs\n\n_Visuals that may help the reviewer. Please add screenshots, including URL if applicable, for any front end change. GIFs are most welcome!_\n"
     severity: 'low'
     cwe:
       - 'CWE-123'
@@ -25,4 +25,3 @@ custom_rules:
       - 'swift'
       - 'typescript'
       - 'vb'
-

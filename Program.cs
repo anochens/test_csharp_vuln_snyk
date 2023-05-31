@@ -1,33 +1,13 @@
 ﻿
-using System.Collections.Concurrent;
+List<StudentClass> Student = new List<StudentClass>();
+Student.Add(new StudentClass(){StudentID=1});
 
-void SayHello(string name)
+var id = int.Parse(Console.ReadLine() ?? "0");
+var stud = from student in Student
+    where id == student.StudentID
+    select student;
+
+class StudentClass
 {
-    Console.WriteLine($"Hello from thread to {name}");
-}
-
-var i = 0;
-ConcurrentStack<int> mylist = new();
-while(i < 10)
-{
-    var t = new Thread(() => mylist.Push(i));
-    t.Start();
-    // t.Join();
-    i++;
-}
-
-foreach (var j in mylist)
-{
-    Console.WriteLine(j);
-}
-
-
-Thread.Sleep(1);
-Console.WriteLine("Hello from main");
-
-var dangerous = Console.ReadLine();
-
-void dothing()
-{
-    System.Diagnostics.Process.Start(dangerous);
+    public int StudentID { get; set; }
 }
