@@ -2,11 +2,11 @@
 version: v1.22.1
 ignore: {}
 custom_rules:
-  - id: 'test2'
+  - id: 'Use of a Broken or Risky Cryptographic Algorithm'
     description: "This is a thing"
     severity: 'high'
     cwe:
-      - 'CWE-123'
+      - 'CWE-327'
     fix_analysis: ''
     rule_code: '~"."'
     languages:
