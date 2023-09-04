@@ -8,7 +8,7 @@ custom_rules:
     cwe:
       - 'CWE-327'
     fix_analysis: ''
-    rule_code: '~"con.*"'
+    rule_code: '"console"'
     languages:
       - 'apex'
       - 'c'
