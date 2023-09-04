@@ -2,7 +2,7 @@
 version: v1.22.1
 ignore: {}
 custom_rules:
-  - id: 'Use of a Broken or Risky Cryptographic Algorithm'
+  - id: Use of a Broken or Risky Cryptographic Algorithm
     description: "This is a thing"
     severity: 'high'
     cwe:
